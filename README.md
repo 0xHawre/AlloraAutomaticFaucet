@@ -41,7 +41,7 @@ You can run the script in the background so it continues running even after you 
 1. **Run the script in the background**:
 
     ```sh
-    ./AutoFaucet.sh.sh &
+    ./AutoFaucet.sh &
     ```
 
 2. **To see running background jobs**:

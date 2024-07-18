@@ -1,0 +1,2 @@
+# AlloraAutomaticFaucet
+Allora Automatic Faucet

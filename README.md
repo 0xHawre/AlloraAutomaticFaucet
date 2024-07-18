@@ -25,13 +25,13 @@ git clone https://github.com/0xHawre/AlloraAutomaticFaucet.git && cd AlloraAutom
 1. **Make the script executable**:
 
     ```sh
-    chmod +x faucet_request.sh
+    chmod +x AutoFaucet.sh.sh
     ```
 
 2. **Run the script**:
 
     ```sh
-    ./faucet_request.sh
+    ./AutoFaucet.sh.sh
     ```
 
 ### Running in the Background
@@ -41,7 +41,7 @@ You can run the script in the background so it continues running even after you 
 1. **Run the script in the background**:
 
     ```sh
-    ./faucet_request.sh &
+    ./AutoFaucet.sh.sh &
     ```
 
 2. **To see running background jobs**:
@@ -64,7 +64,7 @@ You can run the script in the background so it continues running even after you 
 
 ## Script Details
 
-### Script: `faucet_request.sh`
+### Script: `AutoFaucet.sh.sh`
 
 Loop indefinitely: The script runs in an infinite loop, prompting the user to enter an address, making a request to the faucet, and then sleeping for 25 hours.
 Prompt for address: The script prompts the user to enter an address each cycle.
